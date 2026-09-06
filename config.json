@@ -1,0 +1,24 @@
+{
+  "botToken": "",
+  "botPrefix": "/",
+  "DATABASE": {
+    "sqlite": {
+      "CONNECT_SQLITE": false
+    },
+    "mongodb": {
+      "CONNECT_MONGODB": false,
+      "MONGO_URI": ""
+    },
+    "json": {
+      "CONNECT_JSON": true
+    }
+  },
+  "ADMIN_IDS": [
+    6734899387
+  ],
+  "OWNER_ID": 6734899387,
+  "skip": {
+    "events": ["no"],
+    "commands": ["no"]
+  }
+}
